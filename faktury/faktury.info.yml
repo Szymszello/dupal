@@ -1,0 +1,4 @@
+name: Faktury
+type: module
+description: 'Obsługa faktur.'
+core: 8.x

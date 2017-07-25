@@ -1,0 +1,4 @@
+name: Zgloszenia
+type: module
+description: 'Tworzy formularz zgloszen.'
+core: 8.x

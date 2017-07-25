@@ -1,0 +1,7 @@
+zgloszenia_form.form:
+  path: '/zgloszenia'
+  defaults:
+    _title: 'Zgłoszenia'
+    _form: '\Drupal\zgloszenia_form\Form\ZgloszeniaForm'
+  requirements:
+    _permission: 'view any faktury content'

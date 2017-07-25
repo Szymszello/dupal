@@ -1,0 +1,7 @@
+faktury.show:
+    path: '/faktury'
+    defaults:
+        _controller: '\Drupal\faktury\Controller\faktury::wyswietl'
+        _title: 'Faktury'
+    requirements:
+        _premission: 'view any faktury content'
