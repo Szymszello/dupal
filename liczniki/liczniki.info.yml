@@ -1,0 +1,5 @@
+name: Obsługa liczników
+type: module
+package: Development
+description: "Wyswietla odczyty liczników, dodaje odczyty"
+core: 8.x

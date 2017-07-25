@@ -1,0 +1,7 @@
+liczniki.show:
+    path: '/liczniki'
+    defaults:
+        _controller: '\Drupal\liczniki\Controller\liczniki::wyswietl'
+        _title: 'Lista odczytów'
+    requirements:
+        _permission: 'view any licznik content'
