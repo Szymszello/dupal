@@ -1,0 +1,4 @@
+name: User Alter
+type: module
+description: 'Dodaje dodatkowa wartosc do pola user'
+core: 8.x

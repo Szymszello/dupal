@@ -1,0 +1,4 @@
+name: Payu 
+type: module
+description: 'Payu platnosc.'
+core: 8.x

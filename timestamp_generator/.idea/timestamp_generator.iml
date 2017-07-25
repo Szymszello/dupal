@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../core" />
+          <root url="file://$MODULE_DIR$/../alerter" />
+          <root url="file://$MODULE_DIR$/../asset_injector" />
+          <root url="file://$MODULE_DIR$/../hello_world_for_drupal_8" />
+          <root url="file://$MODULE_DIR$/../loremipsum" />
+          <root url="file://$MODULE_DIR$/../node_view_permissions" />
+          <root url="file://$MODULE_DIR$/../permissions_by_term" />
+          <root url="file://$MODULE_DIR$/../php_invoke" />
+          <root url="file://$MODULE_DIR$/../registration_role" />
+          <root url="file://$MODULE_DIR$/../restui" />
+          <root url="file://$MODULE_DIR$/../resume" />
+          <root url="file://$MODULE_DIR$/../../vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../core" />
+          <root url="file://$MODULE_DIR$/../alerter" />
+          <root url="file://$MODULE_DIR$/../asset_injector" />
+          <root url="file://$MODULE_DIR$/../hello_world_for_drupal_8" />
+          <root url="file://$MODULE_DIR$/../loremipsum" />
+          <root url="file://$MODULE_DIR$/../node_view_permissions" />
+          <root url="file://$MODULE_DIR$/../permissions_by_term" />
+          <root url="file://$MODULE_DIR$/../php_invoke" />
+          <root url="file://$MODULE_DIR$/../registration_role" />
+          <root url="file://$MODULE_DIR$/../restui" />
+          <root url="file://$MODULE_DIR$/../resume" />
+          <root url="file://$MODULE_DIR$/../../vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,7 @@
+Payu.show:
+    path: '/platnosc'
+    defaults:
+        _form: '\Drupal\Payu\Form\payuForm'
+        _title: 'Płatność'
+    requirements:
+        _permission: 'view any liczniki content'

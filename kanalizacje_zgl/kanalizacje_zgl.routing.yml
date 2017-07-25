@@ -1,0 +1,7 @@
+kanalizacje_zgl.page:
+  path: '/kanalizacje_zgloszenia'
+  defaults:
+    _controller: '\Drupal\kanalizacje_zgl\Controller\Controller::page'
+    _title: 'Zgłoszenia działu kanalizacji'
+  requirements:
+    _permission: 'view any content'

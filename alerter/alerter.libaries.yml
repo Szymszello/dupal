@@ -1,0 +1,9 @@
+alerter:
+  version: "1.0.x"
+  css:
+    base:
+      css/css.css: {}
+  js:
+    js/js.js: {}
+  dependencies:
+    - core/jquery

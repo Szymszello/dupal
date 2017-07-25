@@ -1,0 +1,4 @@
+name: Time stamp
+type: module
+description: 'lazy builder'
+core: 8.x

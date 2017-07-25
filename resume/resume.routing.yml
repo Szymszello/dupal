@@ -1,0 +1,7 @@
+resume.form:
+ path: '/user/advreg'
+ defaults:
+   _title: 'Uzupełnij profil'
+   _form: '\Drupal\resume\Form\ResumeForm'
+ requirements:
+   _permission: 'view any advreg content'

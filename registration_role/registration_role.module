@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Module file for Registration_role.
+ */
+
+use \Drupal\Core\Routing\RouteMatchInterface;
+use \Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_help().
+ */
+function registration_role_help($route_name, RouteMatchInterface $route_match) {
+  $output = '';
+  switch ($route_name) {
+    case 'help.page.registration_role':
+      $output = t("Auto-assign a role upon registration.");
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function registration_role_user_presave(EntityInterface $entity) {
+if ($account->is_new){
+  $config = \Drupal::config('registration_role.setting');
+
+  foreach ($config->get('role_to_select') as $key => $value) {
+    if ($value) {
+      $entity->addRole($key);
+    }
+  }
+}
+}

@@ -1,0 +1,6 @@
+name: alerter
+type: module
+description: 'console.log hello world on everypage'
+core: 8.x
+libaries:
+  -alerter/alerter

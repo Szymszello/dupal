@@ -48,7 +48,7 @@ class ZgloszeniaForm extends FormBase
         $form['actions']['#type'] = 'actions';
         $form['actions']['submit'] = array(
             '#type' => 'submit',
-            '#value' => $this->t('Wyślij'),
+            '#value' => $this->t('Wyślighj'),
             '#button_type' => 'primary',
         );
 

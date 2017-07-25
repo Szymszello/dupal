@@ -1,0 +1,4 @@
+name: Zgloszenia kanalizacji
+type: module
+description: 'Wyświetla zgłoszenia kanalizacji'
+core: 8.x
